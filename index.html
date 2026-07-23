@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>図書室 騒音メーター</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="good">
+<header>
+<h1>📚 図書室 騒音メーター</h1>
+<div class="buttons">
+<button id="startButton">🎤 開始</button>
+<button id="fullscreenButton">⛶ 全画面</button>
+<button id="settingButton">⚙ 設定</button>
+</div>
+</header>
+<main>
+<div id="face">😊</div>
+<div id="message">とてもよいです！</div>
+<div id="dbArea"><span id="dbValue">0</span> dB</div>
+<div id="meterFrame"><div id="meterBar"></div></div>
+</main>
+<div id="settingWindow" class="hidden">
+<div class="window">
+<h2>設定</h2>
+<label>緑 ～<input id="goodValue" type="number"></label><br>
+<label>黄 ～<input id="warnValue" type="number"></label><br>
+<label>橙 ～<input id="dangerValue" type="number"></label><br><br>
+<button id="saveButton">保存</button>
+<button id="closeButton">閉じる</button>
+</div></div>
+<script src="script.js"></script>
+</body></html>
