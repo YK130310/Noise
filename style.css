@@ -1,0 +1,17 @@
+
+body{margin:0;font-family:sans-serif;text-align:center;transition:.4s}
+header{padding:10px}
+.buttons button{font-size:18px;margin:5px;padding:8px 16px}
+#face{font-size:120px;margin-top:20px}
+#message{font-size:56px;font-weight:bold}
+#dbArea{font-size:48px;margin:20px}
+#meterFrame{width:80%;height:40px;background:#ddd;margin:20px auto;border-radius:20px;overflow:hidden}
+#meterBar{height:100%;width:0%;background:#2ecc71;transition:.3s}
+.good{background:#c8f7c5}
+.warn{background:#fff3a6}
+.danger{background:#ffd28c}
+.bad{background:#ff9d9d}
+.hidden{display:none}
+#settingWindow{position:fixed;inset:0;background:#0008;display:flex;align-items:center;justify-content:center}
+#settingWindow.hidden{display:none}
+.window{background:white;padding:20px;border-radius:10px}
